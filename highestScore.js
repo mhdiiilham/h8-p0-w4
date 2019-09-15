@@ -3,7 +3,7 @@ function highestScore (students) {
     var hasil = {}
     for(var i = 0; i < students.length; i++){
         if(!hasil[students[i].class]){
-            hasil[students[i].class] = {
+          hasil[students[i].class] = {
                 name: '',
                 score: 0,
             }
